@@ -3,7 +3,7 @@ import '../styles/Header.css'
 export default function Header() {
     return (
         <header>
-            <nav className="navbar navbar-expand-lg bg-light px-5">
+            <nav className="navbar navbar-expand-lg bg-light px-3">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">
                         <img src="/logo.svg" className='logo' alt="Logo RE:Direct" />
