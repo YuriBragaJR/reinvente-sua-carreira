@@ -1,0 +1,7 @@
+.hero {
+    background-image: url(../../public/bg-hero.jpg);
+    background-repeat: no-repeat;
+    background-position:unset;
+    background-size: cover;
+    height: 60vh;
+}

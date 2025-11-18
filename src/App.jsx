@@ -1,35 +1,32 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Accordion from './components/Accordion';
+import Form from './components/Form';
+import Footer from './components/Footer';
+import About from './components/About';
+import Carousel from './components/Carousel';
+import Resources from './components/Resources'; 
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Header />
+      <Hero /> 
+      <About/>
+      <Carousel/>
+      <Resources/>
+      <section id="faq">
+        <h2>Perguntas Frequentes</h2>
+        <Accordion question="Como começar a transição?" answer="Busque cursos introdutórios e mentoria." />
+        <Accordion question="Preciso de experiência prévia?" answer="Não. Muitas áreas aceitam iniciantes com portfólio." />
+      </section>
+      <Form />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+
+
+
+export default App;
