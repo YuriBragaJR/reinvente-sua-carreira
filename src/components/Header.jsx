@@ -20,7 +20,7 @@ export default function Header() {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav">
-                        <ul className="navbar-nav fw-medium ms-auto">
+                        <ul className="navbar-nav fw-medium ms-auto gap-2">
                             <li className="nav-item">
                                 <a className="nav-link" href="#sobre">
                                     Sobre
@@ -36,6 +36,18 @@ export default function Header() {
                             <li className="nav-item">
                                 <a className="nav-link" href="#contato">
                                     Contato
+                                </a>
+                            </li>
+                            <hr class="my-2 bg-light"/>
+                            <li className="nav-item">
+                                <a className="nav-link btn btn-principal" href="#Login">
+                                    Login
+                                </a>
+                            </li>
+                            <hr class="my-2 bg-light"/>
+                            <li className="nav-item">
+                                <a className="nav-link  btn btn-principal" href="#Cadastro">
+                                    Cadastro
                                 </a>
                             </li>
                             <hr class="my-2 bg-light"/>

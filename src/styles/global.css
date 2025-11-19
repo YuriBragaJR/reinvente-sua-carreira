@@ -50,19 +50,22 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
+.nav-link:hover {
+    color: var(--principal) !important;
+}
+
 .btn-principal {
     background-color: var(--principal);
     border-color: var(--principal);
 }
 
+
 .btn-principal:hover {
     background-color: #62e0dc;
     border-color: #62e0dc;
+    color: #1F2A38;
 }
 
-.nav-link:hover {
-    color: var(--principal) !important;
-}
 
 .accordion-button:not(.collapsed) {
     color: var(--principal);
