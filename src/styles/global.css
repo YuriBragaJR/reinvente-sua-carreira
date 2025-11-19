@@ -65,12 +65,25 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #62e0dc;
     border-color: #62e0dc;
     color: #1F2A38;
+    transition: 0.2s ease-in;
 }
 
 
 .accordion-button:not(.collapsed) {
     color: var(--principal);
     background-color: var(--bg-light);
+    
+}
+
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem var(--principal);
+    border-color: var(--principal);
+}
+
+#collapseOne,
+#collapseTwo ,
+#collapseThree {
+    transition: 0.1s ease-in;
 }
 
 textarea {

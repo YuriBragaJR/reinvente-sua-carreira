@@ -19,5 +19,6 @@
 .resource-card:hover,
 .resource-card:focus {
     transform: scale(1.02);
+    transition: 0.3s ease-in;
     outline: 2px solid #36B7B2;
 }
