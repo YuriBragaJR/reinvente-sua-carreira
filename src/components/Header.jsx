@@ -40,13 +40,13 @@ export default function Header() {
                             </li>
                             <hr class="my-2 bg-light"/>
                             <li className="nav-item">
-                                <a className="nav-link btn btn-principal" href="#Login">
+                                <a className="btn btn-principal" href="#Login">
                                     Login
                                 </a>
                             </li>
                             <hr class="my-2 bg-light"/>
                             <li className="nav-item">
-                                <a className="nav-link  btn btn-principal" href="#Cadastro">
+                                <a className="btn btn-principal" href="#Cadastro">
                                     Cadastro
                                 </a>
                             </li>

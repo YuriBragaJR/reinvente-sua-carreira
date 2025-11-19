@@ -43,6 +43,9 @@ export default function About() {
                     </div>
                 </div>
             </div>
+        <div className="text-center p-5">
+            <a href="" className="text-center btn btn-principal">Saiba mais</a>
+        </div>
         </div>
     </section>
     );
