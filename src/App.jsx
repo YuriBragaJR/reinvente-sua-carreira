@@ -1,25 +1,23 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
-import Accordion from './components/Accordion';
 import Form from './components/Form';
 import Footer from './components/Footer';
 import About from './components/About';
-import Carousel from './components/Carousel';
+import Persona from './components/Persona';
+import Coments from './components/Coments';
 import Resources from './components/Resources'; 
+import Faq from './components/Faq';
 
 function App() {
   return (
     <>
       <Header />
       <Hero /> 
-      <About/>
-      <Carousel/>
+      <Persona/>
+      <Coments/>
       <Resources/>
-      <section id="faq">
-        <h2>Perguntas Frequentes</h2>
-        <Accordion question="Como começar a transição?" answer="Busque cursos introdutórios e mentoria." />
-        <Accordion question="Preciso de experiência prévia?" answer="Não. Muitas áreas aceitam iniciantes com portfólio." />
-      </section>
+      <About/>
+      <Faq/>
       <Form />
       <Footer />
     </>

@@ -1,20 +1,111 @@
-body {
-    margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
+html {
+    scroll-behavior: smooth;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
+:root {
+    --principal: #36B7B2;
+    --secundaria: #F29F05;
+    --terciaria: #2A4B8D;
+    --principal-light: #e6f0ff;
+    --text-dark: #1F2A38;
+    --text-light: #495057;
+    --bg-light: #f0f4f8;
 }
 
-button {
-    cursor: pointer;
+.cor-p {
+    color: var(--principal);
+}
+.cor-s {
+    color: var(--secundaria);
+}
+.cor-t {
+    color: var(--terciaria);
 }
 
-:focus {
-    outline: 2px solid #005fcc;
-    outline-offset: 2px;
+.cor-txt {
+    color: var(--text-dark);
+}
+
+.bg-p {
+    background-color: var(--principal);
+}
+.bg-s {
+    background-color: var(--secundaria);
+}
+.bg-t {
+    background-color: var(--terciaria);
+}
+.bg-l {
+    background-color: var(--bg-light);
+}
+
+
+
+.hero-section {
+    padding: 100px 0;
+    background-color: var(--bg-light);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+.btn-principal {
+    background-color: var(--principal);
+    border-color: var(--principal);
+}
+
+.btn-principal:hover {
+    background-color: #62e0dc;
+    border-color: #62e0dc;
+}
+
+.nav-link:hover {
+    color: var(--principal) !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--principal);
+    background-color: var(--principal-light);
+}
+
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem rgba(0, 95, 204, 0.25);
+    border-color: var(--principal);
+}
+
+textarea {
+    resize: none;
+}
+
+.logo-footer {
+    height: 50px;
+}
+
+.foto-carla {
+    border-radius: 150px 05px 150px 150px;
+    height: 300px;
+}
+
+.spc {
+    margin-top: 150px;
+}
+
+
+.btn-icon:hover  {
+    color: var(--secundaria);
+    transition: 0.2s ease-in;
+}
+
+.link-f:hover {
+    color: var(--secundaria);
+}
+
+
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 60px 0;
+    }
+    
 }
