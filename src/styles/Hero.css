@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     background-position:unset;
     background-size: cover;
-    height: 70vh;
+    height: 100vh;
 }
 
 .txt-sh {
@@ -11,7 +11,7 @@
 }
 
 .hero-title {
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .hero-txt {
@@ -19,5 +19,5 @@
 }
 
 .proposito {
-    font-size: 70px;
+    font-size: 60px;
 }

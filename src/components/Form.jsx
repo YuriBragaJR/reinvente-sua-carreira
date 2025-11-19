@@ -22,7 +22,9 @@ export default function Form() {
                                 <label for="message" className="form-label">Mensagem</label>
                                 <textarea className="form-control" id="message" rows="4" required></textarea>
                             </div>
-                            <button type="submit" className="btn btn-warning bg-s w-100">Enviar</button>
+                            <div>
+                                <button type="submit" className="btn btn-warning bg-s w-100">Enviar</button>
+                            </div>
                         </form>
                     </div>
                 </div>
