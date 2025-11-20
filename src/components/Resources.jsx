@@ -38,6 +38,9 @@ export default function Resources() {
                     </a>
                 ))}
             </div>
+            <div className="text-center">
+                <a href="" className="btn btn-principal bg-s">Ver mais</a>
+            </div>
         </section>
     );
 }
